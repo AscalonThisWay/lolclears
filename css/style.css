@@ -1,0 +1,329 @@
+/* This CSS file is part of the HTML5 / CSS3 tutorial on http://www.lingulo.com */
+
+/* GLOBAL */
+body
+{
+        border-top:5px solid #e56038;
+        background:#161616;
+        font-family: 'Open Sans', sans-serif;
+        color:#cbcbcb;
+}
+
+input
+{
+        font-family: 'Open Sans', sans-serif;
+        font-size:16px;
+        padding: 7px;
+        outline: 0;
+        border:0;
+        width:250px;
+        background: #EBE8DE;
+        border-radius:5px;
+}
+
+input[type=submit]
+{
+        width:auto;
+        padding: 5px 18px;
+        line-height:25px;
+        text-shadow:none;
+        cursor:pointer;
+        box-shadow: none;
+        background: #333333;
+        color: #fff;
+}
+
+p
+{
+        margin:5px 0;
+        line-height:25px;
+}
+
+a
+{
+        text-decoration:none;
+        color:inherit;
+        transition: color .5s ease;
+}
+
+strong
+{
+        font-weight:bold;
+}
+
+figcaption strong
+{
+        border-bottom: 1px solid #D6D0C1;
+        padding-bottom:10px;
+        margin: 10px 0;
+        display:block;
+}
+
+figcaption
+{
+        line-height: 25px;
+        font-size:14px;
+        width:200px;
+}
+
+hr
+{
+        background-color: #D6D0C1;
+        border:0;
+        height:1px;
+        margin:20px 0;
+}
+
+
+/* HEADER */
+
+header
+{
+        position:relative;
+        width:auto;
+        max-width:900px;
+        margin: 0 auto 20px auto;
+}
+
+header h1
+{
+        margin:35px 0 0 0;
+        font-size:55px;
+        color:#e56038;
+        font-family: 'Baumans', cursive;
+}
+
+header p
+{
+        font-family: 'Open Sans', sans-serif;
+        font-size:16px;
+        color: #cbcbcb;
+        margin-left:132px;
+}
+
+nav
+{
+        position:absolute;
+        right:0;
+        bottom:0;
+}
+
+nav ul
+{
+        list-style:none;
+}
+
+nav ul li
+{
+        display:block;
+        float:left;
+        padding:3px 15px;
+}
+
+nav ul li a
+{
+        font-family: 'Open Sans', sans-serif;
+        text-transform:uppercase;
+        transition: all .25s ease;
+}
+
+nav ul li a:hover
+{
+        color:#E56038;
+}
+
+/* 3 COLUMNS */
+
+#boxcontent
+{
+        width:auto;
+        max-width:900px;
+        margin:0 auto;
+        padding:70px 0 45px 0;
+}
+
+/* SPACER */
+
+#spacer
+{
+        width:auto;
+        height:70px;
+        background-color:#e56038;
+        position:relative;
+        font-family: 'Open Sans', sans-serif;
+        color:#fff;
+        font-size:18px;
+}
+
+#spacer p
+{
+        margin-top:22px;
+        width:auto;
+        position:absolute;
+        left:50%;
+        margin-left:-450px;
+}
+
+#spacer .search
+{
+        margin-top:15px;
+        width:auto;
+        position:absolute;
+        right:50%;
+        margin-right:-480px;
+}
+/* FOOTER */
+
+footer
+{
+        position:relative;
+        clear:both;
+        width:auto;
+        height:350px;
+        background:#333333;
+}
+
+footer .wrapper
+{
+        line-height:25px;
+        margin: 0 auto;
+        padding-top:30px;
+        width:auto;
+        max-width:900px;
+        font-size:14px;
+}
+
+footer .wrapper .column
+{
+        font-family: 'Open Sans', sans-serif;
+        color:#ababab;
+        float:left;
+        width:280px;
+        margin-right:20px;
+}
+
+footer .wrapper .column.midlist ul li
+{
+        display:block;
+        width:auto;
+        padding:0 0 10px 25px;
+        margin-bottom:10px;
+        border-bottom: 1px solid #444444;
+        background:url(img/arrowright2.png) left 6px no-repeat;
+}
+
+footer .wrapper .column.midlist ul li a:hover
+{
+        color:#fff;
+}
+
+footer .wrapper .column.rightlist ul li
+{
+        display:block;
+        width:auto;
+        margin-bottom:15px;
+}
+
+footer .wrapper .column.rightlist ul li a span
+{
+        margin-left:95px;
+        display:block;
+}
+
+footer .wrapper .column.rightlist ul li a img
+{
+        transition: border .25s ease;
+        float:left;
+        border:3px solid #444444;
+}
+
+footer .wrapper .column.rightlist ul li a img:hover
+{
+        border-color: #5e5e5e;
+}
+
+footer .wrapper .column h4
+{
+        font-size: 16px;
+        color: #fff;
+        border-bottom: 1px solid #444444;
+        padding: 0 0 10px 0;
+        margin-bottom: 10px;
+}
+
+#copyright
+{
+        background: #1D1D1D;
+        height:70px;
+        position:absolute;
+        bottom:0;
+        left:0;
+        width:100%;
+}
+#copyright .wrapper
+{
+        font-family: 'Open Sans', sans-serif;
+        padding-top:25px;
+        color: #5e5e5e;
+        font-size:14px;
+        position:relative;
+}
+#copyright .wrapper .social
+{
+        position:absolute;
+        right:0;
+        top:25px;
+}
+#copyright .wrapper .social a
+{
+        transition: opacity .25s ease;
+        opacity: 0.3;
+        margin-left: 12px;
+        display:block;
+        float:left;
+}
+#copyright .wrapper .social a:hover
+{
+        opacity: 0.7;
+}
+#copyright .wrapper a
+{
+        color: #ABABAB;
+}
+
+#copyright .wrapper a:hover
+{
+        color: #fff;
+}
+
+/* MISC */
+.clear
+{
+        clear:both;
+}
+.hidden
+{
+        position:absolute;
+        clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+          clip: rect(1px, 1px, 1px, 1px);
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #161616;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #161616;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #ffffff;
+}
