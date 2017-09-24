@@ -67,7 +67,7 @@
       </form>
     </div>
   </section>
-<!--
+
 <?php
 $servername = "localhost";
 $username = "root";
@@ -114,7 +114,7 @@ $conn->close();
 	    a.id = arr[i].name;
       a.className = "hexLink";
       var img = document.createElement("img");
-      img.src = 'http://ddragon.leagueoflegends.com/cdn/6.24.1/img/champion/'+arr[i].name+'.png';
+      img.src = 'images/champions/'+arr[i].name+'.png';
       var h1 = document.createElement("h1");
       h1.innerHTML = arr[i].name;
 
@@ -146,7 +146,7 @@ function filterChamps() {
         }
     }
 }
-</script>-->
+</script>
 </body>
 
 </html>
